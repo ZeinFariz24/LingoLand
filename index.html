@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LingoLand - Belajar Bahasa Inggris yang Menyenangkan untuk Anak-Anak"
+    />
+    <meta name="author" content="LingoLand" />
+    <title>LingoLand - Belajar Inggris Asyik!</title>
+
+    <!-- styles -->
+    <link href="./css/css/all.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="./css/aos.css" rel="stylesheet" crossorigin="anonymous" />
+    <link
+      href="./css/bootstrap.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+          <i class="fa-solid fa-graduation-cap text-warning me-2"></i>
+          Lingo<span class="text-warning">Land</span>
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMain"
+          aria-controls="navbarMain"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fs-3"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">
+                <i class="fa-solid fa-house me-1"></i>Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">
+                <i class="fa-solid fa-book me-1"></i>Lessons
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">
+                <i class="fa-solid fa-star me-1"></i>Features
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">
+                <i class="fa-solid fa-crown me-1"></i>Plans
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">
+                <i class="fa-solid fa-circle-question me-1"></i>FAQ
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3">
+            <!-- Dark Mode Toggle -->
+            <div class="form-check form-switch mb-0 d-flex align-items-center">
+              <i class="fa-solid fa-sun text-warning me-2"></i>
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="darkModeSwitch"
+                aria-label="Toggle dark/light mode"
+                style="width: 2.5rem; height: 1.25rem; cursor: pointer;"
+              />
+              <i class="fa-solid fa-moon text-primary-emphasis ms-2"></i>
+            </div>
+            <a href="#signup" class="btn btn-warning rounded-pill fw-bold px-4 shadow-sm">
+              <i class="fa-solid fa-user-plus me-1"></i>Daftar
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="position-relative overflow-hidden" style="background: linear-gradient(135deg, var(--bs-warning-bg-subtle) 0%, var(--bs-primary-bg-subtle) 50%, var(--bs-success-bg-subtle) 100%);">
+      <div class="container py-5 py-md-6 position-relative" style="padding-top: 5rem; padding-bottom: 5rem;">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+            <span class="badge bg-warning text-dark fs-6 rounded-pill px-4 py-2 mb-4 shadow-sm">
+              <i class="fa-solid fa-sparkles me-2"></i>Belajar jadi Seru!
+            </span>
+            <h1 class="display-4 fw-bold mb-3 lh-1">
+              Belajar Bahasa Inggris
+              <span class="text-warning">dengan Ceria</span>
+              untuk Anak-Anak
+            </h1>
+            <p class="lead mb-4 text-secondary-emphasis fs-5">
+              Metode belajar interaktif dengan lagu, permainan, dan cerita seru.
+              Anak-anak akan belajar bahasa Inggris dengan gembira dan percaya diri!
+            </p>
+            <div class="d-flex flex-wrap gap-3 mb-4">
+              <a href="#signup" class="btn btn-warning btn-lg rounded-pill fw-bold px-5 py-3 shadow">
+                <i class="fa-solid fa-play me-2"></i>Coba Gratis
+              </a>
+              <a href="#categories" class="btn btn-outline-primary btn-lg rounded-pill fw-bold px-5 py-3">
+                <i class="fa-solid fa-eye me-2"></i>Lihat Materi
+              </a>
+            </div>
+            <div class="d-flex flex-wrap gap-4 align-items-center">
+              <div class="d-flex align-items-center">
+                <div class="d-flex">
+                  <img src="https://i.pravatar.cc/40?img=1" alt="User" class="rounded-circle border border-2 border-white" width="40" height="40" style="margin-right: -8px;">
+                  <img src="https://i.pravatar.cc/40?img=2" alt="User" class="rounded-circle border border-2 border-white" width="40" height="40" style="margin-right: -8px;">
+                  <img src="https://i.pravatar.cc/40?img=3" alt="User" class="rounded-circle border border-2 border-white" width="40" height="40" style="margin-right: -8px;">
+                  <img src="https://i.pravatar.cc/40?img=4" alt="User" class="rounded-circle border border-2 border-white" width="40" height="40" style="margin-right: -8px;">
+                </div>
+              </div>
+              <div>
+                <div class="text-warning fs-5">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <small class="text-secondary fw-semibold">4.9/5 · 12.500+ Orang Tua Puas</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+            <div class="position-relative d-inline-block">
+              <!-- Decorative circles -->
+              <div class="position-absolute top-0 start-0 translate-middle" style="width: 120px; height: 120px; border-radius: 50%; background: rgba(255, 193, 7, 0.2);"></div>
+              <div class="position-absolute bottom-0 end-0 translate-middle" style="width: 100px; height: 100px; border-radius: 50%; background: rgba(13, 110, 253, 0.15);"></div>
+              <div class="position-absolute top-50 start-0 translate-middle-y" style="width: 60px; height: 60px; border-radius: 50%; background: rgba(25, 135, 84, 0.15);"></div>
+              <!-- Main hero illustration -->
+              <div class="bg-white rounded-5 shadow-lg p-5 position-relative" style="z-index: 1;">
+                <div class="row g-3 mb-4">
+                  <div class="col-4">
+                    <div class="bg-warning bg-opacity-10 rounded-4 p-3 text-center">
+                      <i class="fa-solid fa-a text-warning fs-1"></i>
+                      <div class="small fw-bold mt-1">Alphabet</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="bg-primary bg-opacity-10 rounded-4 p-3 text-center">
+                      <i class="fa-solid fa-cow text-primary fs-1"></i>
+                      <div class="small fw-bold mt-1">Animals</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="bg-success bg-opacity-10 rounded-4 p-3 text-center">
+                      <i class="fa-solid fa-palette text-success fs-1"></i>
+                      <div class="small fw-bold mt-1">Colors</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-4">
+                    <div class="bg-danger bg-opacity-10 rounded-4 p-3 text-center">
+                      <i class="fa-solid fa-cake-candles text-danger fs-1"></i>
+                      <div class="small fw-bold mt-1">Food</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="bg-info bg-opacity-10 rounded-4 p-3 text-center">
+                      <i class="fa-solid fa-hand-peace text-info fs-1"></i>
+                      <div class="small fw-bold mt-1">Body</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="rounded-4 p-3 text-center" style="background-color: rgba(111, 66, 193, 0.1);">
+                      <i class="fa-solid fa-hashtag fs-1" style="color: #6f42c1;"></i>
+                      <div class="small fw-bold mt-1">Numbers</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-4 d-flex justify-content-center gap-3">
+                  <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                    <i class="fa-regular fa-face-smile me-1"></i>Fun
+                  </span>
+                  <span class="badge bg-success rounded-pill px-3 py-2">
+                    <i class="fa-regular fa-circle-check me-1"></i>Easy
+                  </span>
+                  <span class="badge bg-primary rounded-pill px-3 py-2">
+                    <i class="fa-solid fa-rocket me-1"></i>Fast
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Wave divider -->
+      <div class="position-absolute bottom-0 w-100" style="line-height: 0;">
+        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 80V40C240 0 480 60 720 40C960 20 1200 60 1440 40V80H0Z" fill="var(--bs-body-bg)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ==================== QUICK STATS ==================== -->
+    <section class="bg-body-tertiary border-bottom">
+      <div class="container py-4">
+        <div class="row text-center g-3" data-aos="fade-up" data-aos-duration="600">
+          <div class="col-6 col-lg-3">
+            <div class="p-3">
+              <div class="display-5 fw-bold text-warning mb-1">50+</div>
+              <div class="text-secondary fw-semibold">Materi Pelajaran</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="p-3">
+              <div class="display-5 fw-bold text-primary mb-1">15K+</div>
+              <div class="text-secondary fw-semibold">Siswa Aktif</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="p-3">
+              <div class="display-5 fw-bold text-success mb-1">200+</div>
+              <div class="text-secondary fw-semibold">Game Interaktif</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="p-3">
+              <div class="display-5 fw-bold text-danger mb-1">100%</div>
+              <div class="text-secondary fw-semibold">Ramah Anak</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CATEGORIES / LESSONS ==================== -->
+    <section id="categories" class="bg-body py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge bg-warning text-dark rounded-pill px-4 py-2 fs-6 mb-3">
+            <i class="fa-solid fa-book-open me-2"></i>Belajar Sekarang
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Pilih Materi Favoritmu!</h2>
+          <p class="lead text-secondary mx-auto" style="max-width: 600px;">
+            Dari alfabet hingga percakapan sehari-hari, semua dikemas dengan game seru dan animasi menarik.
+          </p>
+        </div>
+        <div class="row g-4">
+          <!-- Card 1: Alphabet -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-a text-warning fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Alphabet & Phonics</h4>
+                <p class="text-secondary mb-3">Belajar huruf A-Z dengan suara dan gambar lucu. Cocok untuk pemula!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-warning rounded-pill w-100 fw-bold">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2: Numbers -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-hashtag text-primary fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Numbers & Counting</h4>
+                <p class="text-secondary mb-3">Berhitung 1-100 dalam Inggris dengan lagu dan permainan menyenangkan!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-primary" style="width: 60%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3: Animals -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-cow text-success fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Animals & Nature</h4>
+                <p class="text-secondary mb-3">Kenali nama hewan dan alam dalam Inggris dengan video seru!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-success" style="width: 85%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-success rounded-pill w-100 fw-bold">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4: Colors -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-palette text-danger fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Colors & Shapes</h4>
+                <p class="text-secondary mb-3">Warna dan bentuk dalam Inggris dengan aktivitas mewarnai interaktif!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-danger" style="width: 70%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-danger rounded-pill w-100 fw-bold">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5: Food -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-info bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-cake-candles text-info fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Food & Drinks</h4>
+                <p class="text-secondary mb-3">Makanan dan minuman favorit dalam Inggris. Belajar sambil bermain peran!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-info" style="width: 65%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-info rounded-pill w-100 fw-bold text-dark">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6: Body -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card border-0 shadow-sm rounded-4 h-100" style="transition: transform .2s;">
+              <div class="card-body text-center p-4">
+                <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                  <i class="fa-solid fa-hand-peace text-warning fs-1"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Body & Movement</h4>
+                <p class="text-secondary mb-3">Anggota tubuh dan gerakan dalam Inggris dengan lagu dance!</p>
+                <div class="d-flex justify-content-center gap-1 text-warning mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-warning" style="width: 90%"></div>
+                </div>
+                <a href="#" class="btn btn-outline-warning rounded-pill w-100 fw-bold">
+                  Mulai Belajar <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURES ==================== -->
+    <section id="features" class="bg-body-tertiary py-5 border-top">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge bg-primary rounded-pill px-4 py-2 fs-6 mb-3">
+            <i class="fa-solid fa-star me-2"></i>Kenapa LingoLand?
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Belajar Jadi Lebih <span class="text-warning">Menyenangkan</span></h2>
+          <p class="lead text-secondary mx-auto" style="max-width: 600px;">
+            Kami menggabungkan pendidikan dan hiburan untuk pengalaman belajar terbaik.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-center p-4">
+              <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                <i class="fa-solid fa-gamepad text-warning fs-2"></i>
+              </div>
+              <h5 class="fw-bold">Game Interaktif</h5>
+              <p class="text-secondary small">Belajar sambil bermain game seru yang melatih kosakata dan pengucapan.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-center p-4">
+              <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                <i class="fa-solid fa-music text-primary fs-2"></i>
+              </div>
+              <h5 class="fw-bold">Lagu & Animasi</h5>
+              <p class="text-secondary small">Lagu ceria dan animasi warna-warni yang membuat anak betah belajar.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-center p-4">
+              <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                <i class="fa-solid fa-microphone text-success fs-2"></i>
+              </div>
+              <h5 class="fw-bold">Voice Recognition</h5>
+              <p class="text-secondary small">Teknologi pengenal suara untuk melatih pelafalan bahasa Inggris anak.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="text-center p-4">
+              <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                <i class="fa-solid fa-chart-line text-danger fs-2"></i>
+              </div>
+              <h5 class="fw-bold">Progress Report</h5>
+              <p class="text-secondary small">Pantau perkembangan belajar anak secara detail dan real-time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section class="bg-body py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge bg-success rounded-pill px-4 py-2 fs-6 mb-3">
+            <i class="fa-solid fa-compass me-2"></i>Cara Belajar
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Mulai dalam 3 Langkah Mudah</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0 bg-warning bg-opacity-10 rounded-4 h-100">
+              <div class="card-body text-center p-4">
+                <div class="bg-warning text-white fw-bold rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 60px; height: 60px; font-size: 1.5rem;">1</div>
+                <i class="fa-solid fa-user-plus text-warning fs-1 mb-3 d-block"></i>
+                <h5 class="fw-bold">Daftar Akun</h5>
+                <p class="text-secondary">Buat akun gratis dalam 1 menit. Mulai belajar tanpa ribet!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card border-0 bg-primary bg-opacity-10 rounded-4 h-100">
+              <div class="card-body text-center p-4">
+                <div class="bg-primary text-white fw-bold rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 60px; height: 60px; font-size: 1.5rem;">2</div>
+                <i class="fa-solid fa-heart text-primary fs-1 mb-3 d-block"></i>
+                <h5 class="fw-bold">Pilih Materi</h5>
+                <p class="text-secondary">Pilih topik favorit anak, dari alfabet hingga percakapan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card border-0 bg-success bg-opacity-10 rounded-4 h-100">
+              <div class="card-body text-center p-4">
+                <div class="bg-success text-white fw-bold rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 60px; height: 60px; font-size: 1.5rem;">3</div>
+                <i class="fa-solid fa-face-smile text-success fs-1 mb-3 d-block"></i>
+                <h5 class="fw-bold">Mulai Belajar!</h5>
+                <p class="text-secondary">Anak-anak belajar sambil bermain dan bernyanyi dengan gembira!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="bg-body-tertiary py-5 border-top border-bottom">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge bg-info rounded-pill px-4 py-2 fs-6 mb-3 text-dark">
+            <i class="fa-solid fa-quote-left me-2"></i>Testimoni
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Apa Kata Mereka?</h2>
+          <p class="lead text-secondary mx-auto" style="max-width: 600px;">
+            Ribuan orang tua puas melihat perkembangan bahasa Inggris anak-anak mereka.
+          </p>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm rounded-4 p-4 text-center">
+                    <div class="card-body">
+                      <img src="https://i.pravatar.cc/80?img=5" alt="Parent" class="rounded-circle mb-3 border border-3 border-warning" width="80" height="80">
+                      <div class="text-warning mb-2 fs-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p class="fs-5 fst-italic mb-3 text-secondary">
+                        "Anak saya jadi sangat percaya diri berbicara bahasa Inggris setelah belajar di LingoLand. Metodenya sangat menyenangkan!"
+                      </p>
+                      <h6 class="fw-bold mb-0">– Sarah Wijaya</h6>
+                      <small class="text-secondary">Ibu dari Andi (7 tahun)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm rounded-4 p-4 text-center">
+                    <div class="card-body">
+                      <img src="https://i.pravatar.cc/80?img=9" alt="Parent" class="rounded-circle mb-3 border border-3 border-primary" width="80" height="80">
+                      <div class="text-warning mb-2 fs-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p class="fs-5 fst-italic mb-3 text-secondary">
+                        "LingoLand membuat belajar bahasa Inggris terasa seperti bermain game. Anak saya tidak sabar untuk belajar setiap hari!"
+                      </p>
+                      <h6 class="fw-bold mb-0">– Budi Santoso</h6>
+                      <small class="text-secondary">Ayah dari Dinda (6 tahun)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm rounded-4 p-4 text-center">
+                    <div class="card-body">
+                      <img src="https://i.pravatar.cc/80?img=12" alt="Parent" class="rounded-circle mb-3 border border-3 border-success" width="80" height="80">
+                      <div class="text-warning mb-2 fs-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p class="fs-5 fst-italic mb-3 text-secondary">
+                        "Sebagai guru, saya merekomendasikan LingoLand! Materinya lengkap, visualnya menarik, dan sangat ramah anak."
+                      </p>
+                      <h6 class="fw-bold mb-0">– Dewi Lestari</h6>
+                      <small class="text-secondary">Guru SD & Ibu dari Raka (8 tahun)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+              <i class="fa-solid fa-chevron-left text-dark"></i>
+            </span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+              <i class="fa-solid fa-chevron-right text-dark"></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PRICING ==================== -->
+    <section id="pricing" class="bg-body py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge bg-danger rounded-pill px-4 py-2 fs-6 mb-3">
+            <i class="fa-solid fa-crown me-2"></i>Pilih Paket
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Harga <span class="text-warning">Ramah</span> untuk Semua</h2>
+          <p class="lead text-secondary mx-auto" style="max-width: 600px;">
+            Dapatkan akses ke seluruh materi, game, dan fitur premium.
+          </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!-- Free Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <div class="card-body p-4 text-center">
+                <div class="bg-body-tertiary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fa-solid fa-leaf text-success fs-2"></i>
+                </div>
+                <h4 class="fw-bold">Gratis</h4>
+                <div class="display-4 fw-bold text-success mb-3">Rp 0</div>
+                <ul class="list-unstyled text-start mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>10 materi dasar</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Game terbatas</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Progress dasar</li>
+                  <li class="mb-2 text-secondary"><i class="fa-solid fa-xmark text-secondary me-2"></i>Voice recognition</li>
+                  <li class="mb-2 text-secondary"><i class="fa-solid fa-xmark text-secondary me-2"></i>Laporan detail</li>
+                </ul>
+                <a href="#" class="btn btn-outline-success rounded-pill w-100 fw-bold py-2">Mulai Gratis</a>
+              </div>
+            </div>
+          </div>
+          <!-- Premium Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card border-0 shadow-lg rounded-4 h-100 position-relative overflow-hidden">
+              <div class="position-absolute top-0 end-0 bg-warning text-dark fw-bold px-4 py-1 rounded-start" style="font-size: 0.85rem;">
+                <i class="fa-solid fa-crown me-1"></i>POPULER
+              </div>
+              <div class="card-body p-4 text-center pt-5">
+                <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fa-solid fa-crown text-warning fs-2"></i>
+                </div>
+                <h4 class="fw-bold">Premium</h4>
+                <div class="display-4 fw-bold text-warning mb-3">Rp 49<span class="fs-5 text-secondary">/bln</span></div>
+                <ul class="list-unstyled text-start mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Semua materi (50+)</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Semua game & lagu</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Voice recognition</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Laporan detail</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Sertifikat kelulusan</li>
+                </ul>
+                <a href="#" class="btn btn-warning rounded-pill w-100 fw-bold py-2 shadow">Langganan Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <!-- Yearly Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+              <div class="card-body p-4 text-center">
+                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fa-solid fa-gem text-primary fs-2"></i>
+                </div>
+                <h4 class="fw-bold">Tahunan</h4>
+                <div class="display-4 fw-bold text-primary mb-1">Rp 449<span class="fs-5 text-secondary">/thn</span></div>
+                <small class="text-success fw-bold mb-3 d-block"><i class="fa-solid fa-tag me-1"></i>Hemat Rp 139.000!</small>
+                <ul class="list-unstyled text-start mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Semua fitur Premium</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>2 bulan gratis</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Konsultasi tutor</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Update materi baru</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Prioritas support</li>
+                </ul>
+                <a href="#" class="btn btn-primary rounded-pill w-100 fw-bold py-2 shadow">Langganan Tahunan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ ==================== -->
+    <section id="faq" class="bg-body-tertiary py-5 border-top">
+      <div class="container py-4">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="badge rounded-pill px-4 py-2 fs-6 mb-3" style="background-color: #6f42c1;">
+            <i class="fa-solid fa-circle-question me-2"></i>FAQ
+          </span>
+          <h2 class="display-5 fw-bold mb-3">Pertanyaan Umum</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item border-0 shadow-sm rounded-4 mb-3" data-aos="fade-up">
+                <h3 class="accordion-header">
+                  <button class="accordion-button rounded-4 fw-bold bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                    Untuk usia berapa LingoLand cocok?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-secondary">
+                    LingoLand dirancang khusus untuk anak usia 4-12 tahun. Materi disesuaikan dengan tahap perkembangan anak, dari pengenalan dasar hingga percakapan sederhana.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 shadow-sm rounded-4 mb-3" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-4 fw-bold bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Apakah anak bisa belajar sendiri?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-secondary">
+                    Ya! LingoLand dirancang dengan antarmuka yang ramah anak sehingga mereka bisa belajar secara mandiri. Namun, kami tetap merekomendasikan pendampingan orang tua untuk hasil maksimal.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 shadow-sm rounded-4 mb-3" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-4 fw-bold bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Apakah ada uji coba gratis?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-secondary">
+                    Tentu! Kami menyediakan paket gratis dengan 10 materi dasar dan game terbatas. Anda bisa meningkatkannya ke paket Premium kapan saja.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 shadow-sm rounded-4 mb-3" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-4 fw-bold bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    Bagaimana cara memantau progress anak?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-secondary">
+                    Orang tua bisa melihat laporan perkembangan anak secara detail di dashboard khusus. Laporan mencakup materi yang sudah dipelajari, skor game, dan waktu belajar.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 shadow-sm rounded-4 mb-3" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-4 fw-bold bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    Bisakah diakses dari perangkat apa saja?
+                  </button>
+                </h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-secondary">
+                    LingoLand bisa diakses dari komputer, tablet, dan smartphone. Tampilan kami sudah responsif dan optimal untuk semua ukuran layar.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA SECTION ==================== -->
+    <section class="bg-warning py-5" data-aos="fade-up">
+      <div class="container py-4 text-center">
+        <h2 class="display-5 fw-bold mb-3 text-dark">Siap Membuat Anak Anda <span class="text-primary">Jago Inggris</span>?</h2>
+        <p class="lead mb-4 text-dark mx-auto" style="max-width: 600px;">
+          Daftar sekarang dan dapatkan akses GRATIS ke 10 materi pelajaran pertama!
+        </p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <a href="#" class="btn btn-dark btn-lg rounded-pill fw-bold px-5 py-3 shadow">
+            <i class="fa-solid fa-rocket me-2"></i>Daftar Gratis Sekarang
+          </a>
+          <a href="#" class="btn btn-outline-dark btn-lg rounded-pill fw-bold px-5 py-3">
+            <i class="fa-solid fa-phone me-2"></i>Hubungi Kami
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h5 class="fw-bold mb-3">
+              <i class="fa-solid fa-graduation-cap text-warning me-2"></i>
+              Lingo<span class="text-warning">Land</span>
+            </h5>
+            <p class="text-secondary small mb-3">
+              Platform belajar bahasa Inggris nomor 1 untuk anak-anak Indonesia. 
+              Belajar jadi seru, mudah, dan menyenangkan!
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-secondary" style="transition: color .2s;">
+                <i class="fa-brands fa-facebook fs-5"></i>
+              </a>
+              <a href="#" class="text-secondary" style="transition: color .2s;">
+                <i class="fa-brands fa-instagram fs-5"></i>
+              </a>
+              <a href="#" class="text-secondary" style="transition: color .2s;">
+                <i class="fa-brands fa-youtube fs-5"></i>
+              </a>
+              <a href="#" class="text-secondary" style="transition: color .2s;">
+                <i class="fa-brands fa-tiktok fs-5"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6 class="fw-bold text-white mb-3">Navigasi</h6>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Lessons</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Features</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Pricing</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6 class="fw-bold text-white mb-3">Materi</h6>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Alphabet</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Numbers</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Animals</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Colors</a></li>
+              <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Food</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="fw-bold text-white mb-3">Langganan Newsletter</h6>
+            <p class="text-secondary small mb-3">Dapatkan tips belajar dan promo spesial langsung di email Anda!</p>
+            <div class="input-group">
+              <input type="email" class="form-control border-0" placeholder="Email Anda...">
+              <button class="btn btn-warning fw-bold" type="button">
+                <i class="fa-solid fa-paper-plane me-1"></i>Kirim
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="border-secondary my-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <small class="text-secondary">&copy; 2026 LingoLand. All rights reserved.</small>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+            <small class="text-secondary">
+              <a href="#" class="text-secondary text-decoration-none me-3">Privacy Policy</a>
+              <a href="#" class="text-secondary text-decoration-none">Terms of Service</a>
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="./js/js/all.js" crossorigin="anonymous"></script>
+    <script src="./js/aos.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery4.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" crossorigin="anonymous"></script>
+
+    <!-- AOS init -->
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+      });
+    </script>
+  </body>
+</html>
